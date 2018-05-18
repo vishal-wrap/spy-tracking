@@ -1,0 +1,108 @@
+/*
+Template Name: Wrapkit Ui Kit
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+
+/*============================================================== 
+ For Laptop & above all (1650px) 
+ ============================================================== */
+
+@media(min-width:1650px) {
+   
+}
+
+
+/*============================================================== 
+ For Laptop & above all (1370px) 
+ ============================================================== */
+
+@media(max-width:1370px) {
+    
+}
+
+
+/*-- ============================================================== 
+ Small Desktop & above all (1024px) 
+ ============================================================== */
+
+@media(min-width:1024px) {
+    .static-slider10 {
+        padding-top: 80px;
+    }
+    
+} 
+
+
+@media(max-width:1023px) {
+    .d-flex{
+        display: block!important;
+        &.no-block{
+            display: flex !important;
+        }
+    }
+    .po-absolute{
+        position: relative;
+    }
+    .topbar{
+        background: $white; 
+        position: relative;
+        &.animated{
+            animation-duration:0s;
+            &.slideInDown{
+                    -webkit-animation-name: none;
+                    animation-name: none;
+            }
+        }
+    }
+}
+
+
+/*-- ============================================================== 
+ Ipad & above all(768px) 
+ ============================================================== */
+
+@media(min-width:768px) {
+    
+}
+
+
+/*-- ============================================================== 
+ Phone and below ipad(767px) 
+ ============================================================== */
+
+@media(max-width:767px) {
+    /*This is for the Global*/
+    .b-l, .b-r{
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 1px solid $border;
+    }
+    .img-inline{
+        li.half-width{
+            width: 100%;
+        }
+    }
+    .both-space{
+        margin: 10px 0;
+    }
+    .side-content{
+        padding: 40px 20px;
+    }
+    
+    .general-listing.two-part{
+        li{
+            width: 100%;
+            display: block;
+        }
+    }
+    .footer4 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .static-slider10 {
+        padding-top: 50px;
+    }
+}
