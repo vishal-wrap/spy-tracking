@@ -1010,11 +1010,11 @@ Buttons
     
     transition: 0.2s ease-in;
     &:hover{
-        background: $primary;
-        border: 1px solid $primary;
+        background: $dark;
+        border: 1px solid $dark;
     }
     &.active, &:active, &:focus{
-        background: $primary;   
+        background: $dark;   
     }
 }
 .btn-themecolor,
@@ -1198,7 +1198,7 @@ Buttons
         border-color:$primary;
     }
     &.active, &:active, &:focus{
-        background: $primary-dark;
+        background: $primary;
     }
 }
 
@@ -1319,8 +1319,8 @@ Buttons
 .open > .dropdown-toggle.btn-primary:hover,
 .btn-primary.focus,
 .btn-primary:focus {
-    background-color: $primary ;
-    border: 1px solid $primary;
+    background-color: $dark;
+    border: 1px solid $dark;
 }
 
 .btn-success.active.focus,

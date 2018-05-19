@@ -1084,13 +1084,13 @@ Buttons
   transition: 0.2s ease-in; }
   .btn-primary:hover,
   .btn-primary.disabled:hover {
-    background: #823a99;
-    border: 1px solid #823a99; }
+    background: #263238;
+    border: 1px solid #263238; }
   .btn-primary.active, .btn-primary:active, .btn-primary:focus,
   .btn-primary.disabled.active,
   .btn-primary.disabled:active,
   .btn-primary.disabled:focus {
-    background: #823a99; }
+    background: #263238; }
 
 .btn-themecolor,
 .btn-themecolor.disabled {
@@ -1285,7 +1285,7 @@ Buttons
     color: #ffffff;
     border-color: #823a99; }
   .btn-outline-primary.active, .btn-outline-primary:active, .btn-outline-primary:focus {
-    background: #345bcb; }
+    background: #823a99; }
 
 .btn-outline-success, a.btn-outline-success {
   color: #2cdd9b;
@@ -1377,8 +1377,8 @@ Buttons
 .open > .dropdown-toggle.btn-primary:hover,
 .btn-primary.focus,
 .btn-primary:focus {
-  background-color: #823a99;
-  border: 1px solid #823a99; }
+  background-color: #263238;
+  border: 1px solid #263238; }
 
 .btn-success.active.focus,
 .btn-success.active:focus,

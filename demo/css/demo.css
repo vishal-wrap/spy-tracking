@@ -141,12 +141,19 @@ Features
   margin-top: 20px;
   border-top: 1px solid rgba(120, 130, 140, 0.13); }
 
+.footer4 .general-listing li a i {
+  font-size: 10px; }
+
 .features-table {
   overflow: hidden;
   height: 792px;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s; }
+  .features-table .fix {
+    width: 80px; }
+  .features-table th, .features-table td {
+    text-align: center; }
 
 .h-auto {
   height: auto; }

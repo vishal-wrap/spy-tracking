@@ -168,13 +168,28 @@ Features
         padding-top: 10px;
         margin-top: 20px;
         border-top: 1px solid $border;
-    }    
+    } 
+    .general-listing {
+        li {
+            a {
+                i {
+                    font-size: 10px;
+                }
+            }
+        }
+    }   
 }
 
 .features-table {
     overflow: hidden;
     height: 792px;
     transition: all 0.5s;
+    .fix {
+        width: 80px;
+    }
+    th,td {
+        text-align: center;
+    }
 }
 
 .h-auto {
