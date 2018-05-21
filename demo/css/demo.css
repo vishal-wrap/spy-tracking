@@ -157,3 +157,52 @@ Features
 
 .h-auto {
   height: auto; }
+
+/*******************
+blog-details
+*******************/
+.blog-title {
+  font-size: 40px; }
+
+.blog-subtitle {
+  font-size: 16px; }
+
+.sharelist {
+  padding: 0;
+  list-style: none;
+  position: fixed;
+  top: 40%; }
+  .sharelist .share-item {
+    width: 40px;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    -webkit-transition-property: width;
+    /* Safari */
+    -webkit-transition-duration: 2s;
+    /* Safari */
+    -o-transition-property: width;
+    transition-property: width;
+    -webkit-transition-duration: .15s;
+    -o-transition-duration: .15s;
+    transition-duration: .15s; }
+    .sharelist .share-item:hover {
+      width: 55px; }
+
+.social-fb {
+  background-color: #3b5998; }
+
+.social-twitter {
+  background-color: #1da1f2; }
+
+.social-insta {
+  background-color: #dc3545; }
+
+.social-google {
+  background-color: #ff6550; }
+
+.social-pint {
+  background-color: #e83e8c; }
+
+.post-title {
+  font-size: 24px; }

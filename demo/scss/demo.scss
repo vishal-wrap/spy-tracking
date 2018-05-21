@@ -195,3 +195,57 @@ Features
 .h-auto {
     height: auto;
 }
+
+/*******************
+blog-details
+*******************/
+.blog-title{
+    font-size:40px;
+}
+.blog-subtitle{
+    font-size:16px;
+}
+
+.sharelist{
+    padding:0;
+    list-style:none;
+    position:fixed;
+    top:40%;
+    .share-item{
+        width:40px;
+        text-align:center;
+        padding:8px;
+        cursor:pointer;
+        -webkit-transition-property: width; /* Safari */
+        -webkit-transition-duration: 2s; /* Safari */
+        transition-property: width;
+        transition-duration: .15s;
+        &:hover{
+            width:55px;
+        }
+    }
+}
+
+.social-fb{
+    background-color: rgb(59, 89, 152);
+}
+
+.social-twitter{
+    background-color: rgb(29, 161, 242);
+}
+
+.social-insta{
+    background-color: rgb(220, 53, 69);
+}
+
+.social-google{
+    background-color: rgb(255, 101, 80);
+}
+
+.social-pint{
+    background-color: rgb(232, 62, 140);
+}
+
+.post-title{
+    font-size:24px;
+}
