@@ -249,3 +249,31 @@ blog-details
 .post-title{
     font-size:24px;
 }
+
+/*******************
+blog-reviews
+*******************/
+.pricing-label{
+    top: -13px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100px;
+    margin: 0 auto;
+}
+.pricing{
+    sup{
+        font-size: 18px;
+        top: -20px;
+    }
+}
+.price{
+    li{
+        display:block !important;
+    }
+}
+.list-inline{
+    li{
+        padding: 8px 0;
+    }
+}
