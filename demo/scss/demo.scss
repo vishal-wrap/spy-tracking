@@ -253,6 +253,9 @@ blog-details
 /*******************
 blog-reviews
 *******************/
+.light-muted{
+    color:#e9e9ea;
+}
 .pricing-label{
     top: -13px;
     position: absolute;
@@ -265,6 +268,17 @@ blog-reviews
     sup{
         font-size: 18px;
         top: -20px;
+    }
+}
+.pricing-card{
+    .card{
+        transition: 0.1s;
+        &:hover{
+            -ms-transform: scale(1.05);
+            transform: scale(1.05);
+            -webkit-transform: scale(1.05);
+            -webkit-font-smoothing: antialiased;
+        }
     }
 }
 .price{
